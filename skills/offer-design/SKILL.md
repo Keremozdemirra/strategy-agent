@@ -1,6 +1,6 @@
 ---
 name: "offer-design"
-description: "Design, construct, or improve an offer — the thing you actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Use for \"offer design,\" \"irresistible offer,\" \"value stack,\" \"guarantee,\" \"risk reversal,\" \"productize a service,\" \"high-ticket offer,\" or \"why isn't my offer converting.\" Best for services, agencies, courses, coaching, info products, and high-ticket B2B."
+description: "Design, construct, or improve an offer — the thing you actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Use for \"offer design,\" \"irresistible offer,\" \"value stack,\" \"guarantee,\" \"risk reversal,\" \"productize a service,\" \"high-ticket offer,\" or \"why isn't my offer converting.\" Türkçe isteklerde de tetiklen: \"teklifimi kurgula\", \"bu teklifi nasıl paketlerim\", \"fiyat paketi tasarla\", \"garanti nasıl olsun\", \"teklifim neden satmıyor\". Best for services, agencies, courses, coaching, info products, and high-ticket B2B. Not for writing the page or email copy that sells the offer; use copywriting or cold-email for that."
 ---
 
 # Offer Design

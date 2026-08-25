@@ -1,6 +1,6 @@
 ---
 name: "karar-notu"
-description: "Bir karar için yapılandırılmış karar notu üretir — seçenekler, ödünleşimler, kriterler, tavsiye ve geri dönüş planı. \"Karar vermem lazım\", \"A mı B mi\", \"hangisini seçmeliyim\", \"artı eksi çıkar\", \"karar notu yaz\" dendiğinde kullan."
+description: "Bir karar için yapılandırılmış karar notu üretir — seçenekler, ödünleşimler, kriterler, tavsiye ve geri dönüş planı. \"Karar vermem lazım\", \"A mı B mi\", \"hangisini seçmeliyim\", \"artı eksi çıkar\", \"karar notu yaz\" dendiğinde kullan. Also triggers on \"I need to decide\", \"A or B\", \"which one should I pick\", \"help me weigh these options\", \"write me a decision memo\". Kararın dayandığı dış veriyi sıfırdan toplamak için kullanma; onun için deep-research kullan."
 ---
 
 # Karar Notu
