@@ -3,70 +3,74 @@ name: "karar-notu"
 description: "Bir karar için yapılandırılmış karar notu üretir — seçenekler, ödünleşimler, kriterler, tavsiye ve geri dönüş planı. \"Karar vermem lazım\", \"A mı B mi\", \"hangisini seçmeliyim\", \"artı eksi çıkar\", \"karar notu yaz\" dendiğinde kullan. Also triggers on \"I need to decide\", \"A or B\", \"which one should I pick\", \"help me weigh these options\", \"write me a decision memo\". Kararın dayandığı dış veriyi sıfırdan toplamak için kullanma; onun için deep-research kullan."
 ---
 
-# Karar Notu
+# Decision memo
 
-Amaç kararı **vermek** değil, doğru kararın kendiliğinden görünür olmasını sağlamak.
+The aim is not to **make** the decision. It is to make the right decision
+visible on its own.
 
-## 1. Kararı çerçevele — en önemli adım
-- **Asıl soru ne?** Çoğu "A mı B mi" sorusunun altında yanlış çerçevelenmiş bir
-  soru vardır. "Hangi CRM'i alalım" aslında "satış sürecimizde ne kırık" olabilir.
-- Ne zamana kadar? Ertelemenin maliyeti ne?
-- **Geri dönülebilir mi?** Geri dönülebilir kararlar hızlı verilir, uzun analiz
-  israftır. Bunu açıkça söyle.
-- Kim etkilenir, kim onaylamalı?
+## 1. Frame the decision — the step that matters most
+- **What is the real question?** Under most "A or B" questions sits a badly
+  framed one. "Which CRM should we buy" may actually be "what is broken in our
+  sales process".
+- By when? What does delay cost?
+- **Is it reversible?** Reversible decisions get made fast; long analysis on them
+  is waste. Say so explicitly.
+- Who is affected, and who has to approve?
 
-Bunlar netleşmeden seçeneklere geçme.
+Do not move on to options until these are settled.
 
-## 2. Kriterleri seçeneklerden ÖNCE belirle
-3-5 kriter, ağırlıklı. Seçenekleri gördükten sonra kriter yazmak sonucu kendine
-göre uydurmaktır. Sırayı bozma.
+## 2. Set the criteria BEFORE the options
+Three to five criteria, weighted. Writing criteria after seeing the options is
+fitting the test to the answer you already want. Do not break the order.
 
-## 3. Seçenekleri çıkar
-- En az 3. İkisi zaten konuşuluyorsa üçüncüyü sen bul.
-- **"Hiçbir şey yapmama" her zaman bir seçenektir** — mutlaka değerlendir.
-- Her biri için: ne gerektiriyor (para, zaman, kişi), ne kazandırır, riski ne,
-  geri dönüşü ne kadar zor.
+## 3. Lay out the options
+- At least three. If two are already being discussed, you find the third.
+- **"Do nothing" is always an option** — evaluate it every time.
+- For each: what it requires (money, time, people), what it gains, what the risk
+  is, how hard it is to undo.
 
-## 4. Dürüstçe tart
-Her seçeneğin **en güçlü halini** yaz — kolay yenmek için zayıflatma.
-Bilmediklerini işaretle. "Kararı tersine döndürecek bilgi ne olurdu?" — onu yaz.
+## 4. Weigh them honestly
+Write each option in its **strongest form** — do not weaken one so it is easy to
+beat. Mark what you do not know. Ask "what information would reverse this
+decision?" and write that down.
 
-## 5. Yaz
+## 5. Write it
 
 ```markdown
-# Karar: <tek cümle>
-**Durum:** taslak | karar verildi
-**Tarih:** | **Karar sahibi:** | **Geri dönülebilir mi:** | **Son tarih:**
+# Decision: <one sentence>
+**Status:** draft | decided
+**Date:** | **Owner:** | **Reversible:** | **Deadline:**
 
-## Bağlam  (neden şimdi? 3-5 cümle)
+## Context  (why now? 3-5 sentences)
 
-## Kriterler
-| # | Kriter | Ağırlık | Neden önemli |
+## Criteria
+| # | Criterion | Weight | Why it matters |
 
-## Seçenekler
-### A) <isim>
-Ne demek: | Artı: | Eksi: | Maliyet: | Risk:
+## Options
+### A) <name>
+What it means: | Pros: | Cons: | Cost: | Risk:
 ### B) ...
-### C) Hiçbir şey yapmamak
+### C) Do nothing
 
-## Karşılaştırma
-| Kriter | A | B | C |
+## Comparison
+| Criterion | A | B | C |
 
-## Tavsiye
-**<seçenek>** — çünkü <en belirleyici 1-2 gerekçe>.
+## Recommendation
+**<option>** — because <the 1-2 reasons that actually decide it>.
 
-## Bu tavsiyeyi ne değiştirirdi
-## Bilmediklerimiz
-## Geri dönüş planı  (yanlış çıkarsa ne yapacağız, hangi işaretle anlayacağız)
-## Sonraki adımlar
-- [ ] kim / ne / ne zaman
+## What would change this recommendation
+## What we do not know
+## Fallback plan  (what we do if it turns out wrong, and the signal that tells us)
+## Next steps
+- [ ] who / what / when
 ```
 
-Uzunsa dosyaya yaz (`kararlar/YYYY-MM-DD-<konu>.md`), sohbete özet koy.
+If it runs long, write it to a file (`decisions/YYYY-MM-DD-<topic>.md`) and put
+the summary in the conversation.
 
-## Kurallar
-- **Tavsiye vermekten kaçınma.** "Duruma göre değişir" işe yaramaz. Tavsiyeni ver,
-  gerekçeni göster; kullanıcı reddedebilir.
-- Kanıtın taşımadığı kesinlikte cümle kurma.
-- Finansal/hukuki kararda: bilgi ver, karar verme, profesyonel danışmanlık
-  gerektiğini not düş.
+## Rules
+- **Do not dodge the recommendation.** "It depends" is useless. Give your
+  recommendation and show your reasoning; the user is free to reject it.
+- Do not write with more certainty than the evidence carries.
+- On a financial or legal decision: give information, do not make the decision,
+  and note where professional advice is required.
