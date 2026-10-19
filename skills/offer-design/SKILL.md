@@ -89,4 +89,4 @@ When drafting offer language, avoid:
 Use specific numbers, named customers, concrete outcomes, real timelines. Specificity beats superlatives.
 
 ---
-*Source: github.com/coreyhaines31/marketingskills*
+*Derived from github.com/coreyhaines31/marketingskills, MIT licence, Copyright (c) 2025 Corey Haines. See THIRD-PARTY-NOTICES.md at the repository root.*
