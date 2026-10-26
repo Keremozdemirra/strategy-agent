@@ -3,8 +3,8 @@
 Agents and skills for management and strategy consulting work.
 
 Strategy work fails at the framing far more often than at the
-analysis. The question arrives already answered — "which market should we enter"
-when the real question is whether to enter one at all — and everything
+analysis. The question arrives already answered ("which market should we enter"
+when the real question is whether to enter one at all), and everything
 downstream is competent work on the wrong problem.
 
 This repository holds the agents and skills for the parts that are genuinely
@@ -25,8 +25,8 @@ It is not a substitute for knowing the industry.
 
 ## How to use this
 
-These are skills for Claude, not a command-line tool. There is nothing to
-build and nothing to import — you describe the work and the matching skill
+These are skills for Claude. There is nothing to
+build and nothing to import: you describe the work and the matching skill
 fires on its own.
 
 **In Claude Code**, clone the repository and link its skills into the
@@ -56,7 +56,7 @@ skill and generally should not have to think about which one applies.
 
 **If nothing fires**, that is a defect in the skill rather than in how you
 asked. The description was written for the wrong phrasing. Say what you asked
-and what you expected, and it gets fixed — that feedback is more valuable than
+and what you expected, and it gets fixed. That feedback is more valuable than
 working around it.
 
 **What is actually built** is listed under Contents below and in the Done
@@ -87,9 +87,9 @@ See [BACKLOG.md](BACKLOG.md). The first unchecked item is the one being built.
 | Skill | What it does |
 | --- | --- |
 | [karar-notu](skills/karar-notu) | Turn a decision into a written note: options, trade-offs, criteria, recommendation and the way back. |
-| [offer-design](skills/offer-design) | Design or repair the thing being sold — value framing, guarantee, structure — before the copy that sells it. |
+| [offer-design](skills/offer-design) | Design or repair the thing being sold (value framing, guarantee, structure) before the copy that sells it. |
 
-These arrived already written and in daily use, rather than being built against the queue below — which is why most carry no item number. Some have Turkish bodies: they were written in the language they are used in, and translating them is a queue item rather than a blocker.
+These arrived already written and in daily use, rather than being built against the queue below, which is why most carry no item number. Some have Turkish bodies: they were written in the language they are used in, and translating them is a queue item rather than a blocker.
 
 Everything still under Queue in [BACKLOG.md](BACKLOG.md) does not exist
 yet.
