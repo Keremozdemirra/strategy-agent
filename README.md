@@ -16,7 +16,7 @@ disagrees.
 ## What this is not
 
 It is not a framework collection. A framework is a way of
-organising an argument you already have, not a way of finding one, and a skill
+organising an argument you already have; it does not find one. A skill
 that applies one uninvited is doing harm.
 
 It does not make the decision. It makes the basis for the decision legible.
